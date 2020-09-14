@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcLearningHub", "AbcLearningHub\AbcLearningHub.csproj", "{506045ED-63B9-4288-86BB-012EE4145D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbcLearningHub.Data", "AbcLearningHub.Data\AbcLearningHub.Data.csproj", "{ABE9B7EB-F51B-41CD-91A9-7A46B66C7C92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcLearningHub.Data", "AbcLearningHub.Data\AbcLearningHub.Data.csproj", "{ABE9B7EB-F51B-41CD-91A9-7A46B66C7C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbcLearningHub.Business", "AbcLearningHub.Business\AbcLearningHub.Business.csproj", "{5969A6FB-9D4C-4BAF-9485-302749B2DA9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcLearningHub.Business", "AbcLearningHub.Business\AbcLearningHub.Business.csproj", "{5969A6FB-9D4C-4BAF-9485-302749B2DA9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbcLearningHub.Common", "AbcLearningHub.Common\AbcLearningHub.Common.csproj", "{1815E585-0935-4AC0-BC1C-CB260A127062}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbcLearningHub.Common", "AbcLearningHub.Common\AbcLearningHub.Common.csproj", "{1815E585-0935-4AC0-BC1C-CB260A127062}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SbscLearning", "SbscLearning\SbscLearning.csproj", "{0BAC0123-728F-4019-A8ED-E06CAEBA83A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{506045ED-63B9-4288-86BB-012EE4145D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{506045ED-63B9-4288-86BB-012EE4145D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{506045ED-63B9-4288-86BB-012EE4145D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{506045ED-63B9-4288-86BB-012EE4145D87}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ABE9B7EB-F51B-41CD-91A9-7A46B66C7C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ABE9B7EB-F51B-41CD-91A9-7A46B66C7C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABE9B7EB-F51B-41CD-91A9-7A46B66C7C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{1815E585-0935-4AC0-BC1C-CB260A127062}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1815E585-0935-4AC0-BC1C-CB260A127062}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1815E585-0935-4AC0-BC1C-CB260A127062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BAC0123-728F-4019-A8ED-E06CAEBA83A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BAC0123-728F-4019-A8ED-E06CAEBA83A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BAC0123-728F-4019-A8ED-E06CAEBA83A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BAC0123-728F-4019-A8ED-E06CAEBA83A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
